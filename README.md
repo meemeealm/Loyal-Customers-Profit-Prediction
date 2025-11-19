@@ -1,4 +1,4 @@
-## Grocery Store Sales Prediction
+## Grocery Store Loyal Customers' Profit Prediction
 <img src="https://geediting.com/wp-content/uploads/2025/08/a6235bf0-ec43-47e2-afd6-9187c23ab30b.png" alt="Demo Image" width="400" height="300"/>
 
 ***Project Overview***  
@@ -97,5 +97,6 @@ docker run -p 8000:8000 profit-prediction
 ```
 http://localhost:8000/docs
 ```
+
 
 
