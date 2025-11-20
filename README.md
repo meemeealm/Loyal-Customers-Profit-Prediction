@@ -65,7 +65,7 @@ Dataset Source: [Kaggle](https://www.kaggle.com/datasets/mohamedharris/supermart
 └── uv.lock
 ```
 
-### Web Service - FastAPI
+### Web Service 
 
 example request: 
 ```
@@ -84,7 +84,7 @@ curl -X 'POST' \
 *How to run via locally and Docker*
 
 ```
-git clone https://github.com/meemeealm/zoomcamp-projects.git
+git clone https://github.com/meemeealm/Loyal-Customers-Profit-Prediction.git
 cd zoomcamp-projects
 ```
 
@@ -97,6 +97,7 @@ docker run -p 8000:8000 profit-prediction
 ```
 http://localhost:8000/docs
 ```
+
 
 
 
