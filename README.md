@@ -42,7 +42,13 @@ These metrics provided a balanced view of both prediction accuracy (RMSE) and ex
 
 Dataset Source: [Kaggle](https://www.kaggle.com/datasets/mohamedharris/supermart-grocery-sales-retail-analytics-dataset)
 
-***Workflow***  
+***Techstack***  
+- pandas, sklearn, matplotlib, seaborn
+- fastapi, uv
+- docker
+
+
+***Workflow*** 
 
 ![](https://github.com/meemeealm/zoomcamp_projects/blob/main/workflow.png)
 
@@ -50,19 +56,24 @@ Dataset Source: [Kaggle](https://www.kaggle.com/datasets/mohamedharris/supermart
 ```
 .
 ├── README.md
-├── Supermart Grocery Sales - Retail Analytics Dataset.csv
 ├── __pycache__
 │   └── predict.cpython-312.pyc
+├── dataset
+│   └── Supermart Grocery Sales - Retail Analytics Dataset.csv
 ├── dockerfile
 ├── main.py
 ├── model.bin
-├── notebook.ipynb
-├── predict.py
-├── preprocessing_EDA.ipynb
+├── notebooks
+│   ├── notebook.ipynb
+│   └── preprocessing_EDA.ipynb
 ├── pyproject.toml
-├── sales.py
-├── train.py
-└── uv.lock
+├── src
+│   ├── __init__.py
+│   ├── predict.py
+│   ├── sales.py
+│   └── train.py
+├── uv.lock
+└── workflow.png
 ```
 
 ### Web Service 
