@@ -46,6 +46,7 @@ Dataset Source: [Kaggle](https://www.kaggle.com/datasets/mohamedharris/supermart
 - pandas, sklearn, matplotlib, seaborn
 - fastapi, uv
 - docker
+- streamlit
 
 
 ***Workflow*** 
@@ -75,6 +76,9 @@ Dataset Source: [Kaggle](https://www.kaggle.com/datasets/mohamedharris/supermart
 ├── uv.lock
 └── workflow.png
 ```
+### Test on Streamlit
+
+https://profit-predictor-grocery.streamlit.app/
 
 ### Web Service 
 
